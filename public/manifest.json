@@ -1,0 +1,25 @@
+{
+  "short_name": "DOMUSONE",
+  "name": "DOMUSONE Property Management System",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#FF6B35",
+  "background_color": "#FFFFFF",
+  "orientation": "portrait-primary",
+  "categories": ["business", "productivity", "finance"],
+  "description": "Professional property management system for landlords and tenants"
+}
