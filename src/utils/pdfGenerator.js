@@ -47,4 +47,13 @@ export const generateRentStatement = async (tenant, transactions) => {
   const finalY = doc.lastAutoTable.finalY + 10;
   doc.setFontSize(14);
   doc.setTextColor(255, 107, 53);
-  doc.text(`Total Paid
+  doc.text(`Total Paid: KES ${totalPaid.toLocaleString()}`, 20, finalY);
+  doc.text(`Current Balance: KES ${tenant.balance.toLocaleString()}`, 20, finalY + 10);
+  
+  // Footer
+  doc.setFontSize(10);
+  doc.setTextColor(100, 100, 100);
+  doc.text('DOMUSONE - Professional Property Management', 20, doc.internal.pageSize.height - 20);
+  
+  doc.save(`rent-statement-${tenant.name}-${Date.now()}.pdf`);
+};
