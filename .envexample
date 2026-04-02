@@ -1,0 +1,8 @@
+REACT_APP_API_URL=/.netlify/functions
+REACT_APP_PESAPAL_CONSUMER_KEY=your_pesapal_consumer_key
+REACT_APP_PESAPAL_CONSUMER_SECRET=your_pesapal_consumer_secret
+REACT_APP_PESAPAL_IFRAME_URL=https://demo.pesapal.com/api/PostPesapalDirectOrderV4
+REACT_APP_JWT_SECRET=your_jwt_secret_key_here
+SMTP_EMAIL=your_email@gmail.com
+SMTP_PASSWORD=your_app_password
+MONGODB_URI=your_mongodb_connection_string
